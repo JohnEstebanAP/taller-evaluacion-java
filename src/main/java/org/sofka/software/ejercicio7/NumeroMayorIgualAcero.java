@@ -5,6 +5,13 @@ import org.sofka.software.MyPrintAbstract;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * [Clase facilita la utilidad de imprimir en consola si un número es mayor o igual al cero]
+ *
+ * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+ * @version 1.0.0
+ * @since Esta presente desde la version 1.0.0
+ */
 public class NumeroMayorIgualAcero extends MyPrintAbstract {
     static Double num1 = 0.0;
 
@@ -16,7 +23,7 @@ public class NumeroMayorIgualAcero extends MyPrintAbstract {
     }
 
     /**
-     * [Imprime en consola las instruciones pa ingresar dos numeros y decirnos si un número es mayor, menor igual a otro número]
+     * [Imprime en consola las instrucciones para ingresar un número y decirnos si un número es mayor, menor igual a otro número]
      *
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
      * @since [1.0.0]

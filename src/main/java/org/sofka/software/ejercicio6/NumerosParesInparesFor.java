@@ -5,7 +5,7 @@ import org.sofka.software.MyPrintAbstract;
 import java.util.ArrayList;
 
 /**
- * [Clase facilita la utilidad de imprimir en consola los números pares e impares]
+ * [Clase que facilita la utilidad de imprimir en consola los números pares e impares]
  *
  * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
  * @version 1.0.0
