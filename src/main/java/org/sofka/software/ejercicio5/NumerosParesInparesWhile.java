@@ -2,10 +2,7 @@ package org.sofka.software.ejercicio5;
 
 import org.sofka.software.MyPrintAbstract;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.Scanner;
 
 /**
  * [Clase facilita la utilidad de imprimir en consola los números pares e impares]
@@ -14,7 +11,7 @@ import java.util.Scanner;
  * @version 1.0.0
  * @since Esta presente desde la version 1.0.0
  */
-public class NumerosParesInpares extends MyPrintAbstract
+public class NumerosParesInparesWhile extends MyPrintAbstract
 {
     private static final float IVA = 0.21f;
     /**
