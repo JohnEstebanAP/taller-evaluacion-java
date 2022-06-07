@@ -1,10 +1,17 @@
-package org.sofka.software.ejercico4;
+package org.sofka.software.ejercicio4;
 
 import org.sofka.software.MyPrintAbstract;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * [Clase facilita la utilidad de imprimir en consola el precio de un producto con el IVA incluido]
+ *
+ * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+ * @version 1.0.0
+ * @since Esta presente desde la version 1.0.0
+ */
 public class PrecioConIVA extends MyPrintAbstract {
 
     private static final float IVA = 0.21f;

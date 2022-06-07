@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="Ejercicio 3  -  Calcular el aria de un círculo">
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="Ejercicio 4  -  Calcular precio con IVA">
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercico4/PrecioConIVA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio5/NumerosParesInpares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/MyPrintAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/MyPrintAbstract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio3/AreaCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio3/AreaCirculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercico4/PrecioConIVA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio4/PrecioConIVA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
       <recent name="org.sofka.software.ejercicio1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrecioConIVA">
+  <component name="RunManager" selected="Application.NumerosParesInpares">
     <configuration name="AreaCirculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio3.AreaCirculo" />
       <module name="taller-evaluacion-java" />
@@ -88,12 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrecioConIVA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercico4.PrecioConIVA" />
+    <configuration name="NumerosParesInpares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio5.NumerosParesInpares" />
       <module name="taller-evaluacion-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sofka.software.ejercico4.*" />
+          <option name="PATTERN" value="org.sofka.software.ejercicio5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrecioConIVA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio4.PrecioConIVA" />
+      <module name="taller-evaluacion-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sofka.software.ejercicio4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrecioConIVA" />
+        <item itemvalue="Application.NumerosParesInpares" />
+        <item itemvalue="Application.org.sofka.software.ejercicio4.PrecioConIVA" />
         <item itemvalue="Application.AreaCirculo" />
         <item itemvalue="Application.NumeroMayor2" />
         <item itemvalue="Application.NumeroMayor" />
@@ -147,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654578135696</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ejercicio 4  -  Calcular precio con IVA">
+      <created>1654579225782</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654579225782</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +188,8 @@
     <MESSAGE value="Ejercicio 1  -  NumeroMayor" />
     <MESSAGE value="Ejercicio 2  -  NumeroMayor 2 por consola" />
     <MESSAGE value="Ejercicio 3  -  Calcular el aria de un círculo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 3  -  Calcular el aria de un círculo" />
+    <MESSAGE value="Ejercicio 4  -  Calcular precio con IVA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 4  -  Calcular precio con IVA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

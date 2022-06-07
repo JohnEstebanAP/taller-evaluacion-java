@@ -73,17 +73,23 @@ public abstract class MyPrintAbstract {
    * logName("Juan","Hola como estas");
    * ]
    *
-   * @param name    elemento de tipo String que contiene un mensaje inicial.
-   * @param message elemento de tipo String que contiene un mensaje final.
+   * @param messaje1 elemento de tipo String que contiene un mensaje inicial.
+   * @param message2 elemento de tipo String que contiene un mensaje final.
    * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
    * @since [1.0.0]
    */
-  public void logName(String name, String message) {
+  public static void logMessage(String messaje1, String message2) {
+    String separator =  "------------------";
+    String separator2 = "------------------";
+
+    String message = "\n{0}\n {1} {2}\n{0}\n";
+    for (int i = 0; i < (messaje1.length() + message2.length())*0.05; i++){
+      separator = separator.concat(separator2);
+    }
+
     logger.log(
         Level.INFO,
-        "{0}"
-            + "{1} {2}"
-            + "{0}",
-        new Object[] { SEPARATOR, name, message });
+        message,
+        new Object[] { separator, messaje1, message2 });
   }
 }

@@ -8,6 +8,13 @@ import java.util.Scanner;
 //Haz una aplicación que calcule el área de un círculo(pi*R2).
 // El radio se pedirá por teclado (recuerda pasar de String a double con Double.parseDouble).
 // Usa la constante PI y el método pow de Math
+/**
+ * [Clase facilita la utilidad de imprimir en consola el area de un círculo]
+ *
+ * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+ * @version 1.0.0
+ * @since Esta presente desde la version 1.0.0
+ */
 public class AreaCirculo extends MyPrintAbstract {
 
 
