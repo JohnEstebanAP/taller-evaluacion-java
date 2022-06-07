@@ -13,7 +13,7 @@ public class AreaCirculo extends MyPrintAbstract {
 
     /**
      * [Imprime en consola las instruciones para ingresar un números]
-     *
+     * @return Double radio ingresado
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
      * @since [1.0.0]
      */

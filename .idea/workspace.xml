@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="Ejercicio 3  -  Calcular el aria de un círculo">
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/MyPrintAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio1/NumeroMayor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio2/NumeroMayor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio3/AreaCirculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercico4/PrecioConIVA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio3/AreaCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio3/AreaCirculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +39,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -55,7 +48,7 @@
       <recent name="org.sofka.software.ejercicio1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AreaCirculo">
+  <component name="RunManager" selected="Application.PrecioConIVA">
     <configuration name="AreaCirculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio3.AreaCirculo" />
       <module name="taller-evaluacion-java" />
@@ -95,8 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrecioConIVA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercico4.PrecioConIVA" />
+      <module name="taller-evaluacion-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sofka.software.ejercico4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrecioConIVA" />
         <item itemvalue="Application.AreaCirculo" />
         <item itemvalue="Application.NumeroMayor2" />
         <item itemvalue="Application.NumeroMayor" />
@@ -112,6 +119,35 @@
       <option name="presentableId" value="Default" />
       <updated>1654557799094</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ejercicio 1  -  NumeroMayor">
+      <created>1654578028375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654578028376</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ejercicio 1  -  NumeroMayor">
+      <created>1654578063047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654578063047</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ejercicio 2  -  NumeroMayor 2 por consola">
+      <created>1654578091906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654578091906</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ejercicio 3  -  Calcular el aria de un círculo">
+      <created>1654578135696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654578135696</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +160,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ejercicio 1  -  NumeroMayor" />
+    <MESSAGE value="Ejercicio 2  -  NumeroMayor 2 por consola" />
+    <MESSAGE value="Ejercicio 3  -  Calcular el aria de un círculo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 3  -  Calcular el aria de un círculo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
