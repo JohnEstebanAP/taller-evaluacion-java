@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="Ejercicio 5  -  imprimir números impares y pares del 1 al 100">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio6/NumerosParesInparesFor.java" afterDir="false" />
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="Ejercicio 6  -  imprimir números impares y pares del 1 al 100 Con un ciclo for">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio7/NumeroMayorIgualAcero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio5/NumerosParesInpares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio5/NumerosParesInparesWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio1/NumeroMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio1/NumeroMayor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <recent name="org.sofka.software.ejercicio6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumerosParesInparesWhile">
+  <component name="RunManager" selected="Application.NumeroMayorIgualAcero">
     <configuration name="AreaCirculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio3.AreaCirculo" />
       <module name="taller-evaluacion-java" />
@@ -80,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumeroMayor2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio2.NumeroMayor2" />
+    <configuration name="NumeroMayorIgualAcero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio7.NumeroMayorIgualAcero" />
       <module name="taller-evaluacion-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sofka.software.ejercicio2.*" />
+          <option name="PATTERN" value="org.sofka.software.ejercicio7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumeroMayorIgualAcero" />
+        <item itemvalue="Application.NumeroMayor" />
         <item itemvalue="Application.NumerosParesInparesWhile" />
         <item itemvalue="Application.PrecioConIVA" />
         <item itemvalue="Application.AreaCirculo" />
-        <item itemvalue="Application.NumeroMayor2" />
-        <item itemvalue="Application.NumeroMayor" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654618518555</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ejercicio 6  -  imprimir números impares y pares del 1 al 100 Con un ciclo for">
+      <created>1654620296688</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654620296688</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +205,8 @@
     <MESSAGE value="Ejercicio 3  -  Calcular el aria de un círculo" />
     <MESSAGE value="Ejercicio 4  -  Calcular precio con IVA" />
     <MESSAGE value="Ejercicio 5  -  imprimir números impares y pares del 1 al 100" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 5  -  imprimir números impares y pares del 1 al 100" />
+    <MESSAGE value="Ejercicio 6  -  imprimir números impares y pares del 1 al 100 Con un ciclo for" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 6  -  imprimir números impares y pares del 1 al 100 Con un ciclo for" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

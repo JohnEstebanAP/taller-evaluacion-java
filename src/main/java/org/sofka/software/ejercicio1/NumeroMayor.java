@@ -16,13 +16,14 @@ public class  NumeroMayor extends MyPrintAbstract {
 
     /**
      * [Imprime en consola si un número es mayor, menor igual a otro número]
-
-     * @param num1  elemento de tipo Double.
-     * @param num2  elemento de tipo  Double.
+     *
+     * @param num1 elemento de tipo Double.
+     * @param num2 elemento de tipo  Double.
+     * @return
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
      * @since [1.0.0]
      */
-    public static void numeroMayor(Double num1,Double num2){
+    public static void numeroMayor(Double num1, Double num2){
         if(num1.equals(num2)){
             makeLog("El número {0} es igual a el número {1} ",new Object[]{ num1, num2});
         }else if(num1 > num2){

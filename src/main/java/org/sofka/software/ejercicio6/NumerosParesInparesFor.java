@@ -13,7 +13,6 @@ import java.util.ArrayList;
  */
 public class NumerosParesInparesFor extends MyPrintAbstract
 {
-    private static final float IVA = 0.21f;
     /**
      * [Imprime en consola las instruciones para ingresar el precio]
      * @return precio ingresado por consola de tipo Double
