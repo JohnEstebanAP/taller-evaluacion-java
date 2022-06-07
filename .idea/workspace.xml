@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="ejercicio12">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio13/DateTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="ejercicio13 - hora actual con LocalDateTime">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654638908169</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ejercicio13 - hora actual con LocalDateTime">
+      <created>1654640862046</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654640862046</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +267,8 @@
     <MESSAGE value="ejercicio10 - Clase que elimina todos los espacios de una frase :)." />
     <MESSAGE value="ejercicio11 - Clase que muestra la longitud du una frase y la cantidad de veces que se repiten las vocales" />
     <MESSAGE value="ejercicio12" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio12" />
+    <MESSAGE value="ejercicio13 - hora actual con LocalDateTime" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio13 - hora actual con LocalDateTime" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

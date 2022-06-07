@@ -7,9 +7,9 @@ Estas carpetas contienen su correspondiente ejercicio y cada clase tiene su mét
 se debe clonar el repositorio y en un IDE como Intellij IDEA se podrá ejecutar cada clase para poder probarla.
 
 ## Videos #
-<a href="https://johnestebanap.github.io/pratica-js-juego-pin-pong/">Video del ejercicio 16</a>
+<a href="">Video del ejercicio 16</a>
 
-<a href="https://johnestebanap.github.io/pratica-js-juego-pin-pong/">Video del ejercicio 17</a>
+<a href="">Video del ejercicio 17</a>
 
 
-<a href="https://johnestebanap.github.io/pratica-js-juego-pin-pong/">Video del ejercicio 18</a>
+<a href="">Video del ejercicio 18</a>
