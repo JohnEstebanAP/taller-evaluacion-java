@@ -92,4 +92,28 @@ public abstract class MyPrintAbstract {
         message,
         new Object[] { separator, messaje1, message2 });
   }
+
+  /**
+   * [Imprime en consola tres mensajes.]
+   *
+   * @param messaje1 elemento de tipo String que contiene un mensaje inicial.
+   * @param message2 elemento de tipo String que contiene un mensaje intermedio.
+   * @param message3 elemento de tipo String que contiene un mensaje final.
+   * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+   * @since [1.0.0]
+   */
+  public static void logMessage3(String messaje1, String message2, String message3) {
+    String separator =  "------------------";
+    String separator2 = "------------------";
+
+    String message = "\n{0}\n {1} {2} {3}\n{0}\n";
+    for (int i = 0; i < (messaje1.length() + message2.length())*0.05; i++){
+      separator = separator.concat(separator2);
+    }
+
+    logger.log(
+            Level.INFO,
+            message,
+            new Object[] { separator, messaje1, message2, message3 });
+  }
 }
