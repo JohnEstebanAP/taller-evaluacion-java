@@ -6,11 +6,9 @@ package org.sofka.software.ejercicio9;
 
 import org.sofka.software.MyPrintAbstract;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * [Método main donde se ejecuta el programa]
  * Toma la frase "La sonrisa será la mejor arma contra la tristeza" y reemplaza las letras a por e
  * además de que concatena un mensaje adicional ingresado por consola.
  *
@@ -31,7 +29,7 @@ public class RemplazarPalabras extends MyPrintAbstract {
      */
     public static void main(String[] args) {
         log(MESSAGE);
-        log("Se reemplazaram todas las (a) dela frase anterior por una (e)");
+        log("Se reemplazaran todas las (a) dela frase anterior por una (e)");
         log("por favor ingrese una frase que le desee adicionar a la oración:");
         Scanner scanner = new Scanner(System.in);
         String message= scanner.nextLine();

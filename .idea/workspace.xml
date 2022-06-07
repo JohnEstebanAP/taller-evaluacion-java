@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="Delete Main.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio9/RemplazarPalabras.java" afterDir="false" />
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="ejercicio9 - Clase que Remplaza Palabras en una oración.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio10/RemplazarEspacios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio9/RemplazarPalabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio9/RemplazarPalabras.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
       <recent name="org.sofka.software.ejercicio6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemplazarPalabras">
+  <component name="RunManager" selected="Application.RemplazarEspacios">
     <configuration name="DiaLaboral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio8.DiaLaboral" />
       <module name="taller-evaluacion-java" />
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumerosParesInparesWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio5.NumerosParesInparesWhile" />
+    <configuration name="RemplazarEspacios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio10.RemplazarEspacios" />
       <module name="taller-evaluacion-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sofka.software.ejercicio5.*" />
+          <option name="PATTERN" value="org.sofka.software.ejercicio10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemplazarEspacios" />
         <item itemvalue="Application.RemplazarPalabras" />
         <item itemvalue="Application.DiaLaboral" />
         <item itemvalue="Application.NumeroMayorIgualAcero" />
         <item itemvalue="Application.NumeroMayor" />
-        <item itemvalue="Application.NumerosParesInparesWhile" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654625704901</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ejercicio9 - Clase que Remplaza Palabras en una oración.">
+      <created>1654630200653</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654630200653</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +236,8 @@
     <MESSAGE value="Ejercicio 7 - número mayor o igual que cero." />
     <MESSAGE value="Ejercicio 8 - Nos dice si un día es laboral o no" />
     <MESSAGE value="Delete Main.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete Main.java" />
+    <MESSAGE value="ejercicio9 - Clase que Remplaza Palabras en una oración." />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio9 - Clase que Remplaza Palabras en una oración." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
