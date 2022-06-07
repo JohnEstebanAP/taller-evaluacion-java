@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="Actualización del README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio14/NumeroAcumulador.java" afterDir="false" />
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="ejercicio 14 - incrementa un número de 2 en 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio15/MenuOpciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
       <recent name="org.sofka.software.ejercicio6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumeroAcumulador">
+  <component name="RunManager" selected="Application.MenuOpciones">
     <configuration name="CompararParabras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio12.CompararParabras" />
       <module name="taller-evaluacion-java" />
@@ -90,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MenuOpciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio15.MenuOpciones" />
+      <module name="taller-evaluacion-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sofka.software.ejercicio15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumeroAcumulador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio14.NumeroAcumulador" />
       <module name="taller-evaluacion-java" />
@@ -103,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemplazarEspacios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio10.RemplazarEspacios" />
-      <module name="taller-evaluacion-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.sofka.software.ejercicio10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MenuOpciones" />
         <item itemvalue="Application.NumeroAcumulador" />
         <item itemvalue="Application.DateTime" />
         <item itemvalue="Application.CompararParabras" />
         <item itemvalue="Application.LongitudFraseVocales" />
-        <item itemvalue="Application.RemplazarEspacios" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654641091854</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ejercicio 14 - incrementa un número de 2 en 2">
+      <created>1654644897992</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654644897992</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,7 +284,8 @@
     <MESSAGE value="ejercicio12" />
     <MESSAGE value="ejercicio13 - hora actual con LocalDateTime" />
     <MESSAGE value="Actualización del README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualización del README.md" />
+    <MESSAGE value="ejercicio 14 - incrementa un número de 2 en 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 14 - incrementa un número de 2 en 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
