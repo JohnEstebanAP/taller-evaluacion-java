@@ -32,15 +32,16 @@ public class LongitudFraseVocales extends MyPrintAbstract {
         Integer cantidadVocalO = (cantidadPalabras - (message.toLowerCase().replace("o","").replace(" ","")).length());
         Integer cantidadVocalU = (cantidadPalabras - (message.toLowerCase().replace("u","").replace(" ","")).length());
 
+        final String VECES = "veces";
+
         logMessage("Frase: ", message);
         logMessage3("Esta frase tiene: ",cantidadPalabras.toString(), " letras.");
-        logMessage3("La vocal A se repite: ", cantidadVocalA.toString(),"beses");
-        logMessage3("La vocal E se repite: ", cantidadVocalE.toString(),"beses");
-        logMessage3("La vocal I se repite: ", cantidadVocalI.toString(),"beses");
-        logMessage3("La vocal O se repite: ", cantidadVocalO.toString(),"beses");
-        logMessage3("La vocal U se repite: ", cantidadVocalU.toString(),"beses");
+        logMessage3("La vocal A se repite: ", cantidadVocalA.toString(),VECES);
+        logMessage3("La vocal E se repite: ", cantidadVocalE.toString(),VECES);
+        logMessage3("La vocal I se repite: ", cantidadVocalI.toString(),VECES);
+        logMessage3("La vocal O se repite: ", cantidadVocalO.toString(),VECES);
+        logMessage3("La vocal U se repite: ", cantidadVocalU.toString(),VECES);
 
     }
-
 
 }
