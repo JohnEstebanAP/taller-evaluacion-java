@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="Ejercicio 7 - número mayor o igual que cero.">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="Delete Main.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio9/RemplazarPalabras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio6/NumerosParesInparesFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio6/NumerosParesInparesFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio7/NumeroMayorIgualAcero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio7/NumeroMayorIgualAcero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio8/DiaLaboral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio8/DiaLaboral.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
       <recent name="org.sofka.software.ejercicio6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiaLaboral">
+  <component name="RunManager" selected="Application.RemplazarPalabras">
     <configuration name="DiaLaboral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio8.DiaLaboral" />
       <module name="taller-evaluacion-java" />
@@ -105,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrecioConIVA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio4.PrecioConIVA" />
+    <configuration name="RemplazarPalabras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio9.RemplazarPalabras" />
       <module name="taller-evaluacion-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sofka.software.ejercicio4.*" />
+          <option name="PATTERN" value="org.sofka.software.ejercicio9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemplazarPalabras" />
         <item itemvalue="Application.DiaLaboral" />
         <item itemvalue="Application.NumeroMayorIgualAcero" />
         <item itemvalue="Application.NumeroMayor" />
         <item itemvalue="Application.NumerosParesInparesWhile" />
-        <item itemvalue="Application.PrecioConIVA" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654621634663</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ejercicio 8 - Nos dice si un día es laboral o no">
+      <created>1654625611337</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654625611337</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Delete Main.java">
+      <created>1654625704901</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654625704901</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +226,9 @@
     <MESSAGE value="Ejercicio 5  -  imprimir números impares y pares del 1 al 100" />
     <MESSAGE value="Ejercicio 6  -  imprimir números impares y pares del 1 al 100 Con un ciclo for" />
     <MESSAGE value="Ejercicio 7 - número mayor o igual que cero." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 7 - número mayor o igual que cero." />
+    <MESSAGE value="Ejercicio 8 - Nos dice si un día es laboral o no" />
+    <MESSAGE value="Delete Main.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete Main.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
