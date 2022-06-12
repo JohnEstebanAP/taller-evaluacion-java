@@ -5,6 +5,7 @@ import org.sofka.punto2.NumeroMayor2;
 import org.sofka.punto3.AreaCirculo;
 import org.sofka.punto4.PrecioConIVA;
 import org.sofka.punto5.NumerosParesInparesWhile;
+import org.sofka.punto6.NumerosParesInparesFor;
 import org.sofka.utilities.Start;
 
 import java.util.ArrayList;
@@ -36,7 +37,7 @@ public class Main extends Menu {
         setPuntos(new AreaCirculo());
         setPuntos(new PrecioConIVA());
         setPuntos(new NumerosParesInparesWhile());
-        setPuntos(new AreaCirculo());
+        setPuntos(new NumerosParesInparesFor());
         startMenu();
     }
 
@@ -124,10 +125,10 @@ public class Main extends Menu {
         if (option <= 19 && option >= 0) {
             Main.puntos.get(option).start();
         } else {
-            // showMenu();
+            showMenu();
             log("Por favor ingrese una opción correcta");
-            //  int num = initDatos();
-            // selectionIntro(num);
+            int num = initDatos();
+            selectionIntro(num);
         }
     }
 

@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="add NumeroMayor.java en el menu :)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/utilities/Start.java" afterDir="false" />
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="se agregaron los puntos funcionando asta el punto 5 en el menu.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto1/NumeroMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto1/NumeroMayor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto2/NumeroMayor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto2/NumeroMayor2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto3/AreaCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto3/AreaCirculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto4/PrecioConIVA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto4/PrecioConIVA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto5/NumerosParesInparesWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto5/NumerosParesInparesWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto6/NumerosParesInparesFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto6/NumerosParesInparesFor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/utilities/MyPrintAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/utilities/MyPrintAbstract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655060480691</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="se agregaron los puntos funcionando asta el punto 5 en el menu.">
+      <created>1655073025974</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1655073025974</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,7 +330,8 @@
     <MESSAGE value="Creación de en Menu extensible o reutilizable parte 3" />
     <MESSAGE value="Actualización de MyPrintAbstract.java" />
     <MESSAGE value="add NumeroMayor.java en el menu :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add NumeroMayor.java en el menu :)" />
+    <MESSAGE value="se agregaron los puntos funcionando asta el punto 5 en el menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="se agregaron los puntos funcionando asta el punto 5 en el menu." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
