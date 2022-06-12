@@ -4,26 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="ejercicio 15 - Menú de opciones">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="actualización de paquetes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/MyPrintAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/utilities/MyPrintAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio1/NumeroMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto1/NumeroMayor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio10/RemplazarEspacios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto10/RemplazarEspacios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio11/LongitudFraseVocales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto11/LongitudFraseVocales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio12/CompararParabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto12/CompararParabras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio13/DateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto13/DateTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio14/NumeroAcumulador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto14/NumeroAcumulador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio15/MenuOpciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto15/MenuOpciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio2/NumeroMayor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto2/NumeroMayor2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio3/AreaCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto3/AreaCirculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio4/PrecioConIVA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto4/PrecioConIVA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio5/NumerosParesInparesWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto5/NumerosParesInparesWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio6/NumerosParesInparesFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto6/NumerosParesInparesFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio7/NumeroMayorIgualAcero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto7/NumeroMayorIgualAcero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio8/DiaLaboral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto8/DiaLaboral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio9/RemplazarPalabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto9/RemplazarPalabras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto1/NumeroMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto1/NumeroMayor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/utilities/MyPrintAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/utilities/MyPrintAbstract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +46,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.sofka.punto4" />
+      <recent name="org.sofka.utilities" />
       <recent name="org.sofka.software.ejercicio1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -67,13 +55,13 @@
       <recent name="org.sofka.software.ejercicio6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MenuOpciones">
-    <configuration name="CompararParabras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio12.CompararParabras" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DiaLaboral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofka.punto8.DiaLaboral" />
       <module name="taller-evaluacion-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sofka.software.ejercicio12.*" />
+          <option name="PATTERN" value="org.sofka.punto8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio13.DateTime" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofka.software.Main" />
       <module name="taller-evaluacion-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sofka.software.ejercicio13.*" />
+          <option name="PATTERN" value="org.sofka.software.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongitudFraseVocales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sofka.software.ejercicio11.LongitudFraseVocales" />
+    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofka.software.Menu" />
       <module name="taller-evaluacion-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sofka.software.ejercicio11.*" />
+          <option name="PATTERN" value="org.sofka.software.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Menu" />
+        <item itemvalue="Application.DiaLaboral" />
         <item itemvalue="Application.MenuOpciones" />
         <item itemvalue="Application.NumeroAcumulador" />
-        <item itemvalue="Application.DateTime" />
-        <item itemvalue="Application.CompararParabras" />
-        <item itemvalue="Application.LongitudFraseVocales" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654646183249</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="actualización de paquetes">
+      <created>1655049308310</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655049308310</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +305,8 @@
     <MESSAGE value="Actualización del README.md" />
     <MESSAGE value="ejercicio 14 - incrementa un número de 2 en 2" />
     <MESSAGE value="ejercicio 15 - Menú de opciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 15 - Menú de opciones" />
+    <MESSAGE value="actualización de paquetes" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualización de paquetes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

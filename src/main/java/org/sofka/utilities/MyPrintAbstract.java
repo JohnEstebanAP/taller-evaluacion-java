@@ -38,7 +38,7 @@ public abstract class MyPrintAbstract {
    *
    * @param order   elemento de tipo String que contiene el mensaje y orden de los
    *                elementos a imprimir.
-   * @param message Objeto con lita de elementos
+   * @param message Objeto con la lita de elementos a imprimir.
    * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
    * @since [1.0.0]
    */
@@ -79,8 +79,8 @@ public abstract class MyPrintAbstract {
    * @since [1.0.0]
    */
   public static void logMessage(String messaje1, String message2) {
-    String separator =  "------------------";
-    String separator2 = "------------------";
+    String separator =  "";
+    String separator2 = "------------------------------------";
 
     String message = "\n{0}\n {1} {2}\n{0}\n";
     for (int i = 0; i < (messaje1.length() + message2.length())*0.05; i++){

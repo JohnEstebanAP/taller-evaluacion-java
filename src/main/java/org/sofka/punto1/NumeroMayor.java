@@ -2,8 +2,8 @@ package org.sofka.punto1;
 
 import org.sofka.utilities.MyPrintAbstract;
 
-//Declara 2 variables numéricas (con el valor que desees), he indica cual es mayor de los dos.
-// Si son iguales indicarlo también. Ve cambiando los valores para comprobar que funciona.
+//Declara 2 variables numéricas (con el valor que desees), he indica cuál número es mayor de los dos.
+//Si son iguales indicarlo también. Ve cambiando los valores para comprobar que funciona.
 
 /**
  * [Clase facilita la utilidad de imprimir en consola si un número es mayor, menor igual a otro número]
@@ -18,7 +18,7 @@ public class  NumeroMayor extends MyPrintAbstract {
      * [Imprime en consola si un número es mayor, menor igual a otro número]
      *
      * @param num1 elemento de tipo Double.
-     * @param num2 elemento de tipo  Double.
+     * @param num2 elemento de tipo Double.
      * @return
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
      * @since [1.0.0]
