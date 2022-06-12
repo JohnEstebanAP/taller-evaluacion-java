@@ -15,6 +15,7 @@ public abstract class MyPrintAbstract {
 
   private static final Logger logger = Logger.getLogger(MyPrintAbstract.class.getName());
 
+  private static final String SEPARATOR_2 = "----------";
   private static final String SEPARATOR = "\n---------------------------------\n";
 
   /**
@@ -80,11 +81,11 @@ public abstract class MyPrintAbstract {
    */
   public static void logMessage(String messaje1, String message2) {
     String separator =  "";
-    String separator2 = "------------------------------------";
+
 
     String message = "\n{0}\n {1} {2}\n{0}\n";
-    for (int i = 0; i < (messaje1.length() + message2.length())*0.05; i++){
-      separator = separator.concat(separator2);
+    for (int i = 0; i < (messaje1.length() + message2.length())*0.10; i++){
+      separator = separator.concat(SEPARATOR_2);
     }
 
     logger.log(
@@ -103,17 +104,40 @@ public abstract class MyPrintAbstract {
    * @since [1.0.0]
    */
   public static void logMessage3(String messaje1, String message2, String message3) {
-    String separator =  "------------------";
-    String separator2 = "------------------";
+    String separator =  "";
 
     String message = "\n{0}\n {1} {2} {3}\n{0}\n";
     for (int i = 0; i < (messaje1.length() + message2.length())*0.05; i++){
-      separator = separator.concat(separator2);
+      separator = separator.concat(SEPARATOR_2);
     }
 
     logger.log(
             Level.INFO,
             message,
             new Object[] { separator, messaje1, message2, message3 });
+  }
+
+  /**
+   * [Imprime en consola 4 mensajes.]
+   *
+   * @param message1 elemento de tipo String que contiene un mensaje inicial.
+   * @param message2 elemento de tipo String que contiene un mensaje intermedio.
+   * @param message3 elemento de tipo String que contiene un mensaje intermedio final.
+   * @param message4 elemento de tipo String que contiene un mensaje final.
+   * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+   * @since [1.0.0]
+   */
+  public static void logMessage4(String message1, String message2, String message3,  String message4) {
+    String separator =  "";
+
+    String message = "\n{0}\n {1} {2} {3} {4}\n{0}\n";
+    for (int i = 0; i < (message1.length() + message2.length() + message3.length() + message4.length())*0.12; i++){
+      separator = separator.concat(SEPARATOR_2);
+    }
+
+    logger.log(
+            Level.INFO,
+            message,
+            new Object[] { separator, message1, message2, message3, message4 });
   }
 }

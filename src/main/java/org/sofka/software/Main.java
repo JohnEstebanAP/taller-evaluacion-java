@@ -1,5 +1,12 @@
 package org.sofka.software;
 
+import org.sofka.punto1.NumeroMayor;
+import org.sofka.punto2.NumeroMayor2;
+import org.sofka.punto3.AreaCirculo;
+import org.sofka.punto4.PrecioConIVA;
+import org.sofka.punto5.NumerosParesInparesWhile;
+import org.sofka.utilities.Start;
+
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -10,17 +17,12 @@ import java.util.Scanner;
  * [Clase que facilita la utilidad de imprimir en consola un Menu con opciones y ejecotar los puntos selecionados.]
  *
  * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
- * @version 1.0.0
+ * @version 1.2.0
  * @since Esta presente desde la version 1.0.0
  */
 public class Main extends Menu {
 
-    /**
-     * [Método constructor de la Clase Menu]
-     *
-     * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
-     * @since [1.2.0]
-     */
+    protected static List<Start> puntos = new ArrayList<>();
 
     /**
      * [Método de inicio de la Clase Menu]
@@ -29,8 +31,13 @@ public class Main extends Menu {
      * @since [1.2.0]
      */
     public static void main(String[] args) {
+        setPuntos(new NumeroMayor());
+        setPuntos(new NumeroMayor2());
+        setPuntos(new AreaCirculo());
+        setPuntos(new PrecioConIVA());
+        setPuntos(new NumerosParesInparesWhile());
+        setPuntos(new AreaCirculo());
         startMenu();
-
     }
 
     /**
@@ -39,7 +46,7 @@ public class Main extends Menu {
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
      * @since [1.2.0]
      */
-    public static void startMenu(){
+    public static void startMenu() {
         List<String> elemenst = new ArrayList<>();
 
         final String SEPARATOR = "--------------------------------------------------------------------------";
@@ -62,10 +69,10 @@ public class Main extends Menu {
         elemenst.add("  7: punto 7 - Indica si un número es mayor o igual a cero.");
         elemenst.add("  8: punto 8 - Indica si un dia seleccionado es un dia laboral.");
         elemenst.add("""  
-                      . 9: punto 9 - Del texto, “La sonrisa sera la mejor arma contra la tristeza”
-                                     Reemplaza todas las A del String anterior por una E,
-                                     adicionalmente concatenara a esta una frase adicional
-                                     que ustedes quieran incluir.""");
+                . 9: punto 9 - Del texto, “La sonrisa sera la mejor arma contra la tristeza”
+                               Reemplaza todas las A del String anterior por una E,
+                               adicionalmente concatenara a esta una frase adicional
+                               que ustedes quieran incluir.""");
         elemenst.add("  10: punto 10 - Se ingresa una frase por teclado y elimina los espacios en blanco.");
         elemenst.add("  11: punto 11 - Indicar cual es la longitud de una frase,\n" +
                 "                 adicionalmente cuantas vocales tiene.");
@@ -83,18 +90,18 @@ public class Main extends Menu {
         setElemenstMenu(elemenst);
         showMenu();
         int option = initDatos();
-        log(String.valueOf(option));
+        selectionIntro(option);
     }
 
     /**
      * [Imprime en consola las instrucciones para ingresar un número y comprobar que es un Entero de no ser asi se repite la función]
      *
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
-     * @since [1.0.0]
+     * @since [1.2.0]
      */
     public static int initDatos() {
         Scanner scanner = new Scanner(System.in);
-        int num = 0;
+        int num;
         try {
             num = scanner.nextInt();
         } catch (InputMismatchException e) {
@@ -106,45 +113,37 @@ public class Main extends Menu {
     }
 
     /**
-     * [Imprime en consola si el día seleccionado es un dia laborar]
-     * @param day parámetro de tipo Entero(int) para indicar el dia de la semana
+     * [ejecuta la opción seleccionada]
+     *
+     * @param option parámetro de tipo Entero(int) para indicar la opción seleccionada.
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
-     * @since [1.0.0]
+     * @since [1.2.0]
      */
-    /*
-    public static void isWorkingDay(int day) {
-
-        final String MESSAGE1 = ", No es un día laboral.";
-        final String MESSAGE2 = ", Si es un día laboral.";
-
-        int index = day -1;
-        switch (day) {
-            case 1:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 2:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 3:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 4:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 5:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 6:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 7:
-                logMessage(DIAS[index], MESSAGE1);
-                break;
-            default:
-                log("Selecciona un día correcto.");
-                menu();
-                break;
+    public static void selectionIntro(int option) {
+        option = option - 1;
+        if (option <= 19 && option >= 0) {
+            Main.puntos.get(option).start();
+        } else {
+            // showMenu();
+            log("Por favor ingrese una opción correcta");
+            //  int num = initDatos();
+            // selectionIntro(num);
         }
     }
-    */
+
+
+    public static List<Start> getPuntos() {
+        return puntos;
+    }
+
+    /**
+     * [Método para asignarle a la Lista de Objetos las tareas o clase a instance para ser ejecutadas]
+     *
+     * @param punto parámetro de tipo Entero(Objeto).
+     * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+     * @since [1.2.0]
+     */
+    public static void setPuntos(Start punto) {
+        Main.puntos.add(punto);
+    }
 }
