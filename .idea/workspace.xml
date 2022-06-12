@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="se agregó el punto 6 en el menu.">
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="se agregó el punto 7 en el menu.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto7/NumeroMayorIgualAcero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto7/NumeroMayorIgualAcero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto8/DiaLaboral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto8/DiaLaboral.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655073324311</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="se agregó el punto 7 en el menu.">
+      <created>1655074360200</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1655074360200</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +321,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ejercicio 1  -  NumeroMayor" />
     <MESSAGE value="Ejercicio 2  -  NumeroMayor 2 por consola" />
     <MESSAGE value="Ejercicio 3  -  Calcular el aria de un círculo" />
     <MESSAGE value="Ejercicio 4  -  Calcular precio con IVA" />
@@ -339,7 +345,8 @@
     <MESSAGE value="add NumeroMayor.java en el menu :)" />
     <MESSAGE value="se agregaron los puntos funcionando asta el punto 5 en el menu." />
     <MESSAGE value="se agregó el punto 6 en el menu." />
-    <option name="LAST_COMMIT_MESSAGE" value="se agregó el punto 6 en el menu." />
+    <MESSAGE value="se agregó el punto 7 en el menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="se agregó el punto 7 en el menu." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

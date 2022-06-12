@@ -7,6 +7,7 @@ import org.sofka.punto4.PrecioConIVA;
 import org.sofka.punto5.NumerosParesInparesWhile;
 import org.sofka.punto6.NumerosParesInparesFor;
 import org.sofka.punto7.NumeroMayorIgualAcero;
+import org.sofka.punto8.DiaLaboral;
 import org.sofka.utilities.Start;
 
 import java.util.ArrayList;
@@ -40,6 +41,9 @@ public class Main extends Menu {
         setPuntos(new NumerosParesInparesWhile());
         setPuntos(new NumerosParesInparesFor());
         setPuntos(new NumeroMayorIgualAcero());
+        setPuntos(new DiaLaboral());
+        setPuntos(new DiaLaboral());
+
         startMenu();
     }
 

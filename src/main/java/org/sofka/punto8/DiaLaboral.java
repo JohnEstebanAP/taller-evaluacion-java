@@ -1,7 +1,6 @@
 package org.sofka.punto8;
 
-
-import org.sofka.utilities.MyPrintAbstract;
+import org.sofka.utilities.Start;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -13,14 +12,31 @@ import java.util.Scanner;
  * @version 1.0.0
  * @since Esta presente desde la version 1.0.0
  */
-public class DiaLaboral extends MyPrintAbstract {
+public class DiaLaboral extends Start {
     static final String[] DIAS = {"\n1: Lunes", "\n2: Martes", "\n3: Miércoles", "\n4: Jueves", "\n5: Viernes", "\n6: Sábado", "\n7: Domingo"};
 
-    public static void main(String[] args) {
-        menu();
-
-
+    /**
+     * [Facilita la utilidad de imprimir en consola si el día seleccionado es un día laboral]
+     *
+     * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+     * @since Esta presente desde la version 1.0.0
+     */
+    public DiaLaboral() {
+        //Constructor.
     }
+
+
+    /**
+     * [inicia el programa de la clase DíaLaboral]
+     *
+     * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+     * @since Esta presente desde la version 1.0.0
+     */
+    @Override
+    public void start() {
+        menu();
+    }
+
     /**
      * [Imprime en consola Menú con las instrucciones para ingresar un número que indica un día de la semana]
      *
@@ -57,7 +73,7 @@ public class DiaLaboral extends MyPrintAbstract {
      */
     public static int initDatos(){
         Scanner scanner = new Scanner(System.in);
-        int num = 0;
+        int num;
         try {
             num= scanner.nextInt();
         }catch (InputMismatchException e){
@@ -80,31 +96,12 @@ public class DiaLaboral extends MyPrintAbstract {
 
         int index = day -1;
         switch (day) {
-            case 1:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 2:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 3:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 4:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 5:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 6:
-                logMessage(DIAS[index], MESSAGE2);
-                break;
-            case 7:
-                logMessage(DIAS[index], MESSAGE1);
-                break;
-            default:
+            case 1, 2, 3, 4, 5, 6 -> logMessage(DIAS[index], MESSAGE2);
+            case 7 -> logMessage(DIAS[index], MESSAGE1);
+            default -> {
                 log("Selecciona un día correcto.");
                 menu();
-                break;
+            }
         }
     }
 }
