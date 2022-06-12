@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="se agregó el punto 9 en el menu.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto9/RemplazarPalabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto9/RemplazarPalabras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto10/RemplazarEspacios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto10/RemplazarEspacios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655075989913</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="se agregó el punto 9 en el menu.">
+      <created>1655076170079</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1655076170079</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

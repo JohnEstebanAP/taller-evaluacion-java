@@ -1,6 +1,7 @@
 package org.sofka.software;
 
 import org.sofka.punto1.NumeroMayor;
+import org.sofka.punto10.RemplazarEspacios;
 import org.sofka.punto2.NumeroMayor2;
 import org.sofka.punto3.AreaCirculo;
 import org.sofka.punto4.PrecioConIVA;
@@ -44,6 +45,7 @@ public class Main extends Menu {
         setPuntos(new NumeroMayorIgualAcero());
         setPuntos(new DiaLaboral());
         setPuntos(new RemplazarPalabras());
+        setPuntos(new RemplazarEspacios());
 
         startMenu();
     }
