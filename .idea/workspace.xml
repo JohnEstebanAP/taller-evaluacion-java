@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="ejercicio 14 - incrementa un número de 2 en 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio15/MenuOpciones.java" afterDir="false" />
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="ejercicio 15 - Menú de opciones">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/MyPrintAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/utilities/MyPrintAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio1/NumeroMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto1/NumeroMayor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio10/RemplazarEspacios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto10/RemplazarEspacios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio11/LongitudFraseVocales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto11/LongitudFraseVocales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio12/CompararParabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto12/CompararParabras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio13/DateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto13/DateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio14/NumeroAcumulador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto14/NumeroAcumulador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio15/MenuOpciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto15/MenuOpciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio2/NumeroMayor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto2/NumeroMayor2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio3/AreaCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto3/AreaCirculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio4/PrecioConIVA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto4/PrecioConIVA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio5/NumerosParesInparesWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto5/NumerosParesInparesWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio6/NumerosParesInparesFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto6/NumerosParesInparesFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio7/NumeroMayorIgualAcero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto7/NumeroMayorIgualAcero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio8/DiaLaboral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto8/DiaLaboral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/ejercicio9/RemplazarPalabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto9/RemplazarPalabras.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654644897992</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ejercicio 15 - Menú de opciones">
+      <created>1654646183249</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654646183249</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +309,8 @@
     <MESSAGE value="ejercicio13 - hora actual con LocalDateTime" />
     <MESSAGE value="Actualización del README.md" />
     <MESSAGE value="ejercicio 14 - incrementa un número de 2 en 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 14 - incrementa un número de 2 en 2" />
+    <MESSAGE value="ejercicio 15 - Menú de opciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 15 - Menú de opciones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
