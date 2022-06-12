@@ -1,7 +1,5 @@
 package org.sofka.software;
 
-import org.sofka.utilities.MyPrintAbstract;
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -31,7 +29,17 @@ public class Main extends Menu {
      * @since [1.2.0]
      */
     public static void main(String[] args) {
+        startMenu();
 
+    }
+
+    /**
+     * [Método de inicialización del menu]
+     *
+     * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+     * @since [1.2.0]
+     */
+    public static void startMenu(){
         List<String> elemenst = new ArrayList<>();
 
         final String SEPARATOR = "--------------------------------------------------------------------------";
@@ -46,7 +54,7 @@ public class Main extends Menu {
         elemenst.add("\n");
         elemenst.add("  1: punto 1 - Indica cuál número es mayor de los dos o si son iguales.");
         elemenst.add("  2: punto 2 - Se ingresan dos números en consola e imprime \n" +
-                     "               si un número es mayor, menor o igual a otro número.");
+                "               si un número es mayor, menor o igual a otro número.");
         elemenst.add("  3: punto 3 - Calcula el are de un circulo.");
         elemenst.add("  4: punto 4 - Calcula el precio de un producto con IVA.");
         elemenst.add("  5: punto 5 - imprime una lista de números pares e impares con el ciclo While.");
@@ -60,9 +68,9 @@ public class Main extends Menu {
                                      que ustedes quieran incluir.""");
         elemenst.add("  10: punto 10 - Se ingresa una frase por teclado y elimina los espacios en blanco.");
         elemenst.add("  11: punto 11 - Indicar cual es la longitud de una frase,\n" +
-                     "                 adicionalmente cuantas vocales tiene.");
+                "                 adicionalmente cuantas vocales tiene.");
         elemenst.add("  12: punto 12 - toma dos palabras y las campara diciendo si son iguales \n" +
-                     "                 o sus diferencias.");
+                "                 o sus diferencias.");
         elemenst.add("  13: punto 13 - se calcula la fecha y la hora actual.");
         elemenst.add("  14: punto 14 - De un numero inicial se incrementara en saltos de 2 asta el 1000.");
         elemenst.add("  15: punto 15 - Simulación de en menu de opciones");
@@ -74,8 +82,9 @@ public class Main extends Menu {
 
         setElemenstMenu(elemenst);
         showMenu();
+        int option = initDatos();
+        log(String.valueOf(option));
     }
-
 
     /**
      * [Imprime en consola las instrucciones para ingresar un número y comprobar que es un Entero de no ser asi se repite la función]
@@ -89,6 +98,7 @@ public class Main extends Menu {
         try {
             num = scanner.nextInt();
         } catch (InputMismatchException e) {
+            showMenu();
             log("Por favor ingrese el número de manera correcta");
             num = initDatos();
         }
@@ -101,7 +111,6 @@ public class Main extends Menu {
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
      * @since [1.0.0]
      */
-
     /*
     public static void isWorkingDay(int day) {
 
