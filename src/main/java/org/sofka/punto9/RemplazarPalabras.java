@@ -45,10 +45,10 @@ public class RemplazarPalabras extends Start {
         String message2 = "Se reemplazaran todas las (a) dela frase anterior por una (e)";
         String message3 = ("por favor ingrese una frase que le desee adicionar a la oración:");
 
-        makeLog("{0} \n{1} \n{2} \n{3} \n{0}", new Object[]{SEPARATOR, message, message2, message3});
+        makeLog("\n{0} \n{1} \n{2} \n{3} \n{0}", new Object[]{SEPARATOR, message, message2, message3});
         Scanner scanner = new Scanner(System.in);
         String message4 = scanner.nextLine();
-        log(message.replace('a', 'e').replace('á','e' ).concat(message4));
+        logMessage(message.replace('a', 'e').replace('á','e' ).concat(message4), "");
     }
 
 }
