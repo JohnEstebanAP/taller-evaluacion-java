@@ -17,7 +17,7 @@ import java.util.Scanner;
 
 
 /**
- * [Clase que facilita la utilidad de imprimir en consola un Menu con opciones y ejecotar los puntos selecionados.]
+ * [Clase que facilita la utilidad de imprimir en consola un Menu con opciones y ejecutar los puntos seleccionados.]
  *
  * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
  * @version 1.2.0

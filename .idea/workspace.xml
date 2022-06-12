@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="se agregó el punto 8 en el menu.">
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="se agregó la opción de salir en el menu">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655074764022</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="se agregó la opción de salir en el menu">
+      <created>1655074994701</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1655074994701</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,7 +333,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ejercicio 3  -  Calcular el aria de un círculo" />
     <MESSAGE value="Ejercicio 4  -  Calcular precio con IVA" />
     <MESSAGE value="Ejercicio 5  -  imprimir números impares y pares del 1 al 100" />
     <MESSAGE value="Ejercicio 6  -  imprimir números impares y pares del 1 al 100 Con un ciclo for" />
@@ -351,7 +357,8 @@
     <MESSAGE value="se agregó el punto 6 en el menu." />
     <MESSAGE value="se agregó el punto 7 en el menu." />
     <MESSAGE value="se agregó el punto 8 en el menu." />
-    <option name="LAST_COMMIT_MESSAGE" value="se agregó el punto 8 en el menu." />
+    <MESSAGE value="se agregó la opción de salir en el menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agregó la opción de salir en el menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
