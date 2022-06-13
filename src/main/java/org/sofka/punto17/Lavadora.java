@@ -69,7 +69,6 @@ public class Lavadora extends Electrodomestico{
         return super.precioFinal();
     }
 
-
     //getters
 
     public int getCarga() {

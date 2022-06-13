@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="punto 16 y 17">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Electrodomestico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Lavadora.java" afterDir="false" />
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="se agrego el punto 18, falta agregarlo al menu y corregir fallas.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Television.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Lavadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Lavadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/utilities/MyPrintAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/utilities/MyPrintAbstract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +47,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="org.sofka.punto4" />
       <recent name="org.sofka.utilities" />
+      <recent name="org.sofka.punto4" />
       <recent name="org.sofka.software.ejercicio1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -406,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655090311797</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="se agrego el punto 18, falta agregarlo al menu y corregir fallas.">
+      <created>1655095369898</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1655095369898</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,7 +430,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ejercicio13 - hora actual con LocalDateTime" />
     <MESSAGE value="Actualización del README.md" />
     <MESSAGE value="ejercicio 14 - incrementa un número de 2 en 2" />
     <MESSAGE value="ejercicio 15 - Menú de opciones" />
@@ -446,7 +454,8 @@
     <MESSAGE value="Actualizaciones de la clase NumeroMayor.java" />
     <MESSAGE value="se crearon los puntos finales" />
     <MESSAGE value="punto 16 y 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="punto 16 y 17" />
+    <MESSAGE value="se agrego el punto 18, falta agregarlo al menu y corregir fallas." />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrego el punto 18, falta agregarlo al menu y corregir fallas." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
