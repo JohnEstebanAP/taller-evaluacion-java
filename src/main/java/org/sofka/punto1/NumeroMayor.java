@@ -13,9 +13,9 @@ import org.sofka.utilities.Start;
  * @since Esta presente desde la version 1.0.0
  */
 public class NumeroMayor extends Start {
-
-    final Double[] numList1 = {2.0, 3.0, 5.0, 0.2, 15.0};
-    final Double[] numList2 = {1.0, 4.0, 5.0, 1.0, 1.0};
+    private final String elNumero = "El número";
+    private final Double[] numList1 = {2.0, 3.0, 5.0, 0.2, 15.0};
+    private final Double[] numList2 = {1.0, 4.0, 5.0, 1.0, 1.0};
 
 
     /**
@@ -47,13 +47,13 @@ public class NumeroMayor extends Start {
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
      * @since [1.0.0]
      */
-    public static void numeroMayor(Double num1, Double num2) {
+    public void numeroMayor(Double num1, Double num2) {
         if (num1.equals(num2)) {
-            makeLog("El número {0} es igual a el número {1} ", new Object[]{num1, num2});
+            logMessage4(elNumero, num1.toString(), "es igual a el número ",  num2.toString());
         } else if (num1 > num2) {
-            makeLog("El número {0} es mayor a el número {1} ", new Object[]{num1, num2});
+            logMessage4(elNumero, num1.toString(), "es mayor a el número",  num2.toString());
         } else {
-            makeLog("El número {0} es menor a el número {1} ", new Object[]{num1, num2});
+            logMessage4(elNumero, num1.toString(), "es menor a el número",  num2.toString());
         }
     }
 
@@ -65,16 +65,16 @@ public class NumeroMayor extends Start {
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
      * @since [1.0.0]
      */
-    public static void numeroMayor(Double[] num1, Double[] num2) {
-        final String EL_NUMERO = "El número";
+    public void numeroMayor(Double[] num1, Double[] num2) {
+
 
         for (int i = 0; i < 5; i++) {
             if (num1[i].equals(num2[i])) {
-                logMessage4(EL_NUMERO, num1[i].toString(), "es igual a el número ",  num2[i].toString());
+                logMessage4(elNumero, num1[i].toString(), "es igual a el número ",  num2[i].toString());
             } else if (num1[i] > num2[i]) {
-                logMessage4(EL_NUMERO, num1[i].toString(), "es mayor a el número",  num2[i].toString());
+                logMessage4(elNumero, num1[i].toString(), "es mayor a el número",  num2[i].toString());
             } else {
-                logMessage4(EL_NUMERO, num1[i].toString(), "es menor a el número",  num2[i].toString());
+                logMessage4(elNumero, num1[i].toString(), "es menor a el número",  num2[i].toString());
             }
         }
     }

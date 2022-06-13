@@ -142,12 +142,16 @@ public class Main extends Menu {
     public static void selectionIntro(int option) {
         option = option - 1;
         if (option < 19 && option >= 0) {
-            logMessage("La opción seleccionada es", elemenst.get(option+5));
+            logMessage("La opción seleccionada es", elemenst.get(option + 5));
             Main.puntos.get(option).start();
-        }else if(option ==19){
+            logMessage("Por favor presione una tecla para continuar","");
+            Scanner scanner = new Scanner(System.in);
+            scanner.nextInt();
+            startMenu();
+        } else if (option == 19) {
             log("Salir del menu :)");
         } else {
-            showMenu();
+
             log("Por favor ingrese una opción correcta");
             int num = initDatos();
             selectionIntro(num);
