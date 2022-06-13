@@ -5,6 +5,7 @@ import org.sofka.punto10.RemplazarEspacios;
 import org.sofka.punto11.LongitudFraseVocales;
 import org.sofka.punto12.CompararParabras;
 import org.sofka.punto13.DateTime;
+import org.sofka.punto14.NumeroAcumulador;
 import org.sofka.punto2.NumeroMayor2;
 import org.sofka.punto3.AreaCirculo;
 import org.sofka.punto4.PrecioConIVA;
@@ -52,6 +53,7 @@ public class Main extends Menu {
         setPuntos(new LongitudFraseVocales());
         setPuntos(new CompararParabras());
         setPuntos(new DateTime());
+        setPuntos(new NumeroAcumulador());
 
         startMenu();
     }
