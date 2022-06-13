@@ -16,4 +16,4 @@ Sé debe clonar el repositorio y en un IDE como Intellij IDEA se podrá ejecutar
 
 <a href="https://youtu.be/vVnhpWoaapU">Video del ejercicio 17</a>
 
-<a href="">Video del ejercicio 18</a>
+<a href="https://youtu.be/Gm_iDjRZYVQ">Video del ejercicio 18</a>

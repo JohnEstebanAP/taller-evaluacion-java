@@ -21,7 +21,7 @@ public class ControladorEntretenimiento extends Start {
         seriesList.get(2).entregar();
         seriesList.get(3).entregar();
 
-        //se entregar algunas series
+        //se entregan algunos videojuegos
         videojuegosList.get(1).entregar();
         videojuegosList.get(2).entregar();
 
@@ -65,7 +65,6 @@ public class ControladorEntretenimiento extends Start {
         for (int i = 0; i < seriesList.size(); i++) {
             if (seriesList.get(i).isEntregado()) {
                 logMessage("Serie entregada ", seriesList.get(i).toString());
-
                 seriesEntregadas++;
             }
         }

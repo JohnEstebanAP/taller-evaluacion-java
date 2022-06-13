@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="punto 18 funcionando">
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="punto terminado :)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/ControladorEntretenimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/ControladorEntretenimiento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Videojuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Videojuego.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654557799094</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Ejercicio 1  -  NumeroMayor">
-      <created>1654578028375</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1654578028376</updated>
     </task>
     <task id="LOCAL-00002" summary="Ejercicio 1  -  NumeroMayor">
       <created>1654578063047</created>
@@ -485,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655138250478</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="punto terminado :)">
+      <created>1655141488039</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1655141488041</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Actualización de MyPrintAbstract.java" />
     <MESSAGE value="add NumeroMayor.java en el menu :)" />
     <MESSAGE value="se agregaron los puntos funcionando asta el punto 5 en el menu." />
     <MESSAGE value="se agregó el punto 6 en el menu." />
@@ -525,7 +522,8 @@
     <MESSAGE value="corrección punto 18 estaba malo" />
     <MESSAGE value="corrección punto 18" />
     <MESSAGE value="punto 18 funcionando" />
-    <option name="LAST_COMMIT_MESSAGE" value="punto 18 funcionando" />
+    <MESSAGE value="punto terminado :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="punto terminado :)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
