@@ -7,6 +7,7 @@ import org.sofka.punto12.CompararParabras;
 import org.sofka.punto13.DateTime;
 import org.sofka.punto14.NumeroAcumulador;
 import org.sofka.punto15.MenuOpciones;
+import org.sofka.punto16.EjecutablePersona;
 import org.sofka.punto2.NumeroMayor2;
 import org.sofka.punto3.AreaCirculo;
 import org.sofka.punto4.PrecioConIVA;
@@ -56,6 +57,7 @@ public class Main extends Menu {
         setPuntos(new DateTime());
         setPuntos(new NumeroAcumulador());
         setPuntos(new MenuOpciones());
+        setPuntos(new EjecutablePersona());
 
         startMenu();
     }
@@ -101,7 +103,7 @@ public class Main extends Menu {
         elemenst.add("  13: punto 13 - se calcula la fecha y la hora actual.");
         elemenst.add("  14: punto 14 - De un numero inicial se incrementara en saltos de 2 asta el 1000.");
         elemenst.add("  15: punto 15 - Simulación de un menu de opciones");
-        elemenst.add("  16: punto 16 - .");
+        elemenst.add("  16: punto 16 - Creación de 3 objetos de persona.");
         elemenst.add("  17: punto 17 - .");
         elemenst.add("  18: punto 18 - .");
         elemenst.add("  19: punto Extra - Creación de naves espaciales.");
