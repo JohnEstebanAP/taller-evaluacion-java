@@ -8,7 +8,7 @@ package org.sofka.punto17;
  * @version 1.0.0
  * @since Esta presente desde la version 1.0.0
  */
-public class Electrodomestico {
+public abstract class Electrodomestico {
 
     private Double precioBase;
 

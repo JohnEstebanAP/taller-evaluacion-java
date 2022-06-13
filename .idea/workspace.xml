@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="actualización del README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto16/EjecutablePersona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto16/EjecutablePersona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Electrodomestico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Electrodomestico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Tienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Tienda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -447,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655127125098</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="actualización del README.md">
+      <created>1655129225021</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1655129225021</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

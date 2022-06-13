@@ -72,8 +72,9 @@ public class Television extends Electrodomestico {
     @Override
     public Double precioFinal() {
       Double precioFinal = super.precioFinal();
+
         if( this.getResolucion() > 40 ){
-            precioFinal=  (precioFinal * 30) + precioFinal;
+            precioFinal=  (precioFinal * 0.3) + precioFinal;
         }
         if(this.sintonisadorTDT){
             precioFinal += 50.0;

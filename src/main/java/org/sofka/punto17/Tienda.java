@@ -51,9 +51,7 @@ public class Tienda extends Start {
             if (electrodomesticosList.get(i) instanceof Television) {
                 precioTotalTv += electrodomesticosList.get(i).precioFinal();
             }
-
             precioTotal += electrodomesticosList.get(i).precioFinal();
-
         }
 
         logMessage("El precio del tv es de: ", precioTotalLavadora.toString());
