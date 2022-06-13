@@ -1,12 +1,13 @@
 # taller-evaluacion-java
 
 Este repositorio contiene el taller de evaluación de java, 
-con sus 18 ejercicios  todos en un solo paquete llamado org.sofka 
-y los puntos estan guardadosdoc como org.sofka.punto1 - org.sofka.punto18.
+con sus 18 ejercicios todos en un solo paquete llamado org.sofka 
+y los puntos están guardados como org.sofka.punto1 - org.sofka.punto18.
 
-para poder ser ejecutado se encentra en el pakete org.sofka.software y en este se encuntra la clase Main donde encontra el método main para iniciar un menu y poder selecionar que punto se desea ejecutar.
+Para poder ser ejecutado se encuentra en el paquete org.sofka.software y en este se encuentra la clase Main donde se 
+encuentra el método main para iniciar un menu y poder seleccionar que punto se desea ejecutar.
 
-se debe clonar el repositorio y en un IDE como Intellij IDEA se podrá ejecutar cada clase para poder probarla.
+Sé debe clonar el repositorio y en un IDE como Intellij IDEA se podrá ejecutar cada clase para poder probarla.
 
 ## Videos #
 <a href="https://youtu.be/XtuWBXZTV3Q">Video explicación del menu.</a>
