@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="se agregó el punto 13 en el menu.">
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="se agregó el punto 14 en el menu.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto14/NumeroAcumulador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto14/NumeroAcumulador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto15/MenuOpciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto15/MenuOpciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -369,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655078425996</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="se agregó el punto 14 en el menu.">
+      <created>1655078753433</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1655078753433</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -384,7 +391,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Delete Main.java" />
     <MESSAGE value="ejercicio9 - Clase que Remplaza Palabras en una oración." />
     <MESSAGE value="ejercicio10 - Clase que elimina todos los espacios de una frase :)." />
     <MESSAGE value="ejercicio11 - Clase que muestra la longitud du una frase y la cantidad de veces que se repiten las vocales" />
@@ -409,7 +415,8 @@
     <MESSAGE value="se agregó el punto 11 en el menu." />
     <MESSAGE value="se agregó el punto 12 en el menu." />
     <MESSAGE value="se agregó el punto 13 en el menu." />
-    <option name="LAST_COMMIT_MESSAGE" value="se agregó el punto 13 en el menu." />
+    <MESSAGE value="se agregó el punto 14 en el menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="se agregó el punto 14 en el menu." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

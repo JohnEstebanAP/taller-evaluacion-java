@@ -6,6 +6,7 @@ import org.sofka.punto11.LongitudFraseVocales;
 import org.sofka.punto12.CompararParabras;
 import org.sofka.punto13.DateTime;
 import org.sofka.punto14.NumeroAcumulador;
+import org.sofka.punto15.MenuOpciones;
 import org.sofka.punto2.NumeroMayor2;
 import org.sofka.punto3.AreaCirculo;
 import org.sofka.punto4.PrecioConIVA;
@@ -54,6 +55,7 @@ public class Main extends Menu {
         setPuntos(new CompararParabras());
         setPuntos(new DateTime());
         setPuntos(new NumeroAcumulador());
+        setPuntos(new MenuOpciones());
 
         startMenu();
     }
@@ -98,7 +100,7 @@ public class Main extends Menu {
                 "                 o sus diferencias.");
         elemenst.add("  13: punto 13 - se calcula la fecha y la hora actual.");
         elemenst.add("  14: punto 14 - De un numero inicial se incrementara en saltos de 2 asta el 1000.");
-        elemenst.add("  15: punto 15 - Simulación de en menu de opciones");
+        elemenst.add("  15: punto 15 - Simulación de un menu de opciones");
         elemenst.add("  16: punto 16 - .");
         elemenst.add("  17: punto 17 - .");
         elemenst.add("  18: punto 18 - .");
@@ -143,7 +145,7 @@ public class Main extends Menu {
             logMessage("La opción seleccionada es", elemenst.get(option+5));
             Main.puntos.get(option).start();
         }else if(option ==19){
-            logMessage("La opción seleccionada es", elemenst.get(option+5));
+            log("Salir del menu :)");
         } else {
             showMenu();
             log("Por favor ingrese una opción correcta");
