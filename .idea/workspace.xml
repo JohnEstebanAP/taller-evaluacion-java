@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="punto terminado :)">
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="Actualización del README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/ControladorEntretenimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/ControladorEntretenimiento.java" afterDir="false" />
     </list>
@@ -139,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654557799094</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Ejercicio 1  -  NumeroMayor">
-      <created>1654578063047</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1654578063047</updated>
     </task>
     <task id="LOCAL-00003" summary="Ejercicio 2  -  NumeroMayor 2 por consola">
       <created>1654578091906</created>
@@ -483,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655141488041</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Actualización del README.md">
+      <created>1655142550769</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1655142550769</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add NumeroMayor.java en el menu :)" />
     <MESSAGE value="se agregaron los puntos funcionando asta el punto 5 en el menu." />
     <MESSAGE value="se agregó el punto 6 en el menu." />
     <MESSAGE value="se agregó el punto 7 en el menu." />
@@ -523,7 +522,8 @@
     <MESSAGE value="corrección punto 18" />
     <MESSAGE value="punto 18 funcionando" />
     <MESSAGE value="punto terminado :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="punto terminado :)" />
+    <MESSAGE value="Actualización del README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualización del README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

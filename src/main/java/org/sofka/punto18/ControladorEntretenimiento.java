@@ -5,10 +5,23 @@ import org.sofka.utilities.Start;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * [Clase controlador para los objetos serie y Vidiojuego.]
+ *
+ * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+ * @version 1.2.0
+ * @since Esta presente desde la version 1.0.0
+ */
 public class ControladorEntretenimiento extends Start {
     List<Serie> seriesList = new ArrayList<>();
     List<Videojuego> videojuegosList = new ArrayList<>();
 
+    /**
+     * [Método start para iniciar el programa desde el menu.]
+     *
+     * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+     * @since Esta presente desde la version 1.0.0
+     */
     @Override
     public void start() {
         crearSeriesList();
@@ -31,7 +44,10 @@ public class ControladorEntretenimiento extends Start {
     }
 
     /**
-     * [Imprime en la consola la serie y videojuego com mas tiempo y temporadas de una lista].
+     * [Imprime en la consola la serie y videojuego com más tiempo y temporadas de una lista].
+     *
+     * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+     * @since Esta presente desde la version 1.0.0
      */
     private void mayorTiempo() {
         Serie serie = seriesList.get(0);
@@ -57,7 +73,13 @@ public class ControladorEntretenimiento extends Start {
         logMessage("El juego con mas horas es:", videojuego.toString());
     }
 
-
+    /**
+     * [Cuenta la cantidad de series y videojuegos en las listas e imprime en la consola
+     *  estos elementos entregados y es total de elementos entregados].
+     *
+     * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+     * @since Esta presente desde la version 1.0.0
+     */
     private void contarEntregados() {
         int seriesEntregadas = 0;
         int videojuegosEntregados = 0;
@@ -81,6 +103,12 @@ public class ControladorEntretenimiento extends Start {
         logMessage("La cantidad total de series y videojuegos entregadas es de:", String.valueOf(seriesEntregadas + videojuegosEntregados));
     }
 
+    /**
+     * [llena la lista de SeriesList].
+     *
+     * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+     * @since Esta presente desde la version 1.0.0
+     */
     private void crearSeriesList() {
         seriesList.add(new Serie());
         seriesList.add(new Serie("sabrina", "Fantagia oscura"));
@@ -89,7 +117,12 @@ public class ControladorEntretenimiento extends Start {
         seriesList.add(new Serie("The good doctor", "Drama médico", 5, "David Shore"));
 
     }
-
+    /**
+     * [llena la lista de videojuegonList].
+     *
+     * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
+     * @since Esta presente desde la version 1.0.0
+     */
     private void crearVideojuegosList() {
         videojuegosList.add(new Videojuego("GTA", 150));
         videojuegosList.add(new Videojuego("MARIO BROS  ", 50));
