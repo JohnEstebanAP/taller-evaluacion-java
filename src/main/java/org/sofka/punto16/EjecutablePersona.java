@@ -124,6 +124,7 @@ public class EjecutablePersona extends Start {
      */
     private void infoPersonas(List<Persona> personas) {
         for (int i = 0; i < 3; i++) {
+            logMessage("Información de la persona", String.valueOf(i));
             printIMC(personas.get(i).calcularIMC());
             printIsMayarEdad(personas.get(i).esMayorDeEdad());
             log(personas.get(i).toString());

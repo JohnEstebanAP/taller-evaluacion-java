@@ -9,6 +9,7 @@ import org.sofka.punto14.NumeroAcumulador;
 import org.sofka.punto15.MenuOpciones;
 import org.sofka.punto16.EjecutablePersona;
 import org.sofka.punto17.Tienda;
+import org.sofka.punto18.ControladorEntretenimiento;
 import org.sofka.punto2.NumeroMayor2;
 import org.sofka.punto3.AreaCirculo;
 import org.sofka.punto4.PrecioConIVA;
@@ -60,6 +61,7 @@ public class Main extends Menu {
         setPuntos(new MenuOpciones());
         setPuntos(new EjecutablePersona());
         setPuntos(new Tienda());
+        setPuntos(new ControladorEntretenimiento());
 
         startMenu();
     }
@@ -106,8 +108,8 @@ public class Main extends Menu {
         elemenst.add("  14: punto 14 - De un numero inicial se incrementara en saltos de 2 asta el 1000.");
         elemenst.add("  15: punto 15 - Simulación de un menu de opciones");
         elemenst.add("  16: punto 16 - Creación de 3 objetos de persona.");
-        elemenst.add("  17: punto 17 - .");
-        elemenst.add("  18: punto 18 - .");
+        elemenst.add("  17: punto 17 - Tienda de electrodomésticos.");
+        elemenst.add("  18: punto 18 - Series y Videojuegos .");
         elemenst.add("  19: punto Extra - Creación de naves espaciales.");
         elemenst.add("  20: Salir");
 

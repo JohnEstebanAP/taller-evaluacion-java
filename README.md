@@ -9,7 +9,7 @@ para poder ser ejecutado se encentra en el pakete org.sofka.software y en este s
 se debe clonar el repositorio y en un IDE como Intellij IDEA se podrá ejecutar cada clase para poder probarla.
 
 ## Videos #
-<a href="">Video explicación del menu.</a>
+<a href="https://youtu.be/XtuWBXZTV3Q">Video explicación del menu.</a>
 
 <a href="">Video del ejercicio 16</a>
 
