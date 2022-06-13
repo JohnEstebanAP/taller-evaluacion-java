@@ -111,11 +111,10 @@ public class ControladorEntretenimiento extends Start {
      */
     private void crearSeriesList() {
         seriesList.add(new Serie());
-        seriesList.add(new Serie("sabrina", "Fantagia oscura"));
+        seriesList.add(new Serie("sabrina", "Fantasia oscura"));
         seriesList.add(new Serie("Vikings", "Acción", 6, "Michael Hirst"));
         seriesList.add(new Serie("Halo", "Ciencia ficción ", 1, "Paramon +"));
         seriesList.add(new Serie("The good doctor", "Drama médico", 5, "David Shore"));
-
     }
     /**
      * [llena la lista de videojuegonList].

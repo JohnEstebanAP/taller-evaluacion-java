@@ -10,6 +10,7 @@ import org.sofka.punto15.MenuOpciones;
 import org.sofka.punto16.EjecutablePersona;
 import org.sofka.punto17.Tienda;
 import org.sofka.punto18.ControladorEntretenimiento;
+import org.sofka.punto19.MainClass;
 import org.sofka.punto2.NumeroMayor2;
 import org.sofka.punto3.AreaCirculo;
 import org.sofka.punto4.PrecioConIVA;
@@ -62,6 +63,7 @@ public class Main extends Menu {
         setPuntos(new EjecutablePersona());
         setPuntos(new Tienda());
         setPuntos(new ControladorEntretenimiento());
+        setPuntos(new MainClass());
 
         startMenu();
     }
