@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="se agregó el punto 11 en el menu.">
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="se agregó el punto 12 en el menu.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto12/CompararParabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto12/CompararParabras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto13/DateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto13/DateTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/software/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -355,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655077367275</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="se agregó el punto 12 en el menu.">
+      <created>1655078021956</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1655078021956</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,7 +377,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ejercicio 7 - número mayor o igual que cero." />
     <MESSAGE value="Ejercicio 8 - Nos dice si un día es laboral o no" />
     <MESSAGE value="Delete Main.java" />
     <MESSAGE value="ejercicio9 - Clase que Remplaza Palabras en una oración." />
@@ -395,7 +401,8 @@
     <MESSAGE value="se agregó el punto 9 en el menu." />
     <MESSAGE value="se agregó el punto 10 en el menu." />
     <MESSAGE value="se agregó el punto 11 en el menu." />
-    <option name="LAST_COMMIT_MESSAGE" value="se agregó el punto 11 en el menu." />
+    <MESSAGE value="se agregó el punto 12 en el menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="se agregó el punto 12 en el menu." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
