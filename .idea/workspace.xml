@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="actualización del README.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Electrodomestico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Electrodomestico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Television.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Tienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto17/Tienda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,7 @@
       <recent name="org.sofka.software.ejercicio1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.sofka.punto18" />
       <recent name="org.sofka.punto17" />
       <recent name="org.sofka.software.ejercicio11" />
       <recent name="org.sofka.software.ejercicio6" />
@@ -457,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655129225021</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="actualización del README.md">
+      <created>1655131450057</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1655131450057</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
