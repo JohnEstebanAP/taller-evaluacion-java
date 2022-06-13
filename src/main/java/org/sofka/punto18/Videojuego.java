@@ -1,20 +1,21 @@
 package org.sofka.punto18;
 
 /**
- * [Clase Serie]
+ * [Clase Lavadora que extiende de electrodoméstico]
  *
  * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
  * @version 1.0.0
  * @since Esta presente desde la version 1.0.0
  */
-public class Serie implements Entregable{
+public class Videojuego implements Entregable {
+
     private String titulo;
-    private int temporada;
+    private int horasEstimadas;
     private boolean entregado;
     private String genero;
-    private String creador;
+    private String compania;
 
-    private final int TEMPORADA_DEFAULT = 3;
+    private final int HORAS_ESTIMADAS_DEFAULT = 10;
     private final boolean ENTREGADO_DEFAULT = false;
 
     /**
@@ -23,46 +24,46 @@ public class Serie implements Entregable{
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
      * @since Esta presente desde la version 1.0.0*
      */
-    public Serie() {
+    public Videojuego() {
         this.titulo = "";
-        this.temporada = TEMPORADA_DEFAULT;
-        this.entregado = ENTREGADO_DEFAULT;
         this.genero = "";
-        this.creador = "";
+        this.compania = "";
+        this.horasEstimadas = HORAS_ESTIMADAS_DEFAULT;
+        this.entregado = ENTREGADO_DEFAULT;
     }
 
     /**
-     * [Constructor con titulo y generó].
+     * [Constructor con titulo y horasEstimadas].
      *
-     * @param titulo elemento de tipo (String)
-     * @param genero elemento de tipo (String)
+     * @param titulo         elemento de tipo (String)
+     * @param horasEstimadas elemento de tipo (String)
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
      * @since Esta presente desde la version 1.0.0*
      */
-    public Serie(String titulo, String genero) {
+    public Videojuego(String titulo, int horasEstimadas) {
         this.titulo = titulo;
-        this.temporada = TEMPORADA_DEFAULT;
+        this.horasEstimadas = horasEstimadas;
+        this.genero = "";
+        this.compania = "";
         this.entregado = ENTREGADO_DEFAULT;
-        this.genero = genero;
-        this.creador = "";
     }
 
     /**
      * [Constructor completo excepto el atributo entregado].
      *
-     * @param titulo    String
-     * @param genero    String
-     * @param temporada int
-     * @param creador String
+     * @param titulo         String
+     * @param horasEstimadas int
+     * @param genero         String
+     * @param compania       String
      * @author John Esteban Alvarez Piedrahita - esteban.ea145@gmail.com
      * @since Esta presente desde la version 1.0.0*
      */
-    public Serie(String titulo, String genero, int temporada, String creador) {
+    public Videojuego(String titulo, int horasEstimadas, String genero, String compania) {
         this.titulo = titulo;
-        this.temporada = temporada;
-        this.entregado = ENTREGADO_DEFAULT;
+        this.horasEstimadas = horasEstimadas;
         this.genero = genero;
-        this.creador = creador;
+        this.compania = compania;
+        this.entregado = ENTREGADO_DEFAULT;
     }
 
     /**
@@ -73,8 +74,10 @@ public class Serie implements Entregable{
      */
     @Override
     public String toString() {
-        return "Titulo: %s%nTemporadas: %s%nGenero: %s%nEntregada: %s%nCreador: %s ".formatted(titulo, temporada, genero, entregado, creador);
+        return "Titulo: %s%nHoras de juego: %s%nGenero: %s%nEntregado: %s %nCompañía: %s".formatted(titulo,
+                horasEstimadas, genero, entregado, compania);
     }
+
 
     @Override
     public void entregar() {
@@ -93,11 +96,11 @@ public class Serie implements Entregable{
 
     @Override
     public int compareTo(Object a) {
-        Serie serie = (Serie) a;
+        Videojuego videojuegos = (Videojuego) a;
         int compare = 1;
-        if (this.temporada == serie.getTemporada()) {
+        if (this.horasEstimadas == videojuegos.getHorasEstimadas()) {
             compare = 2;
-        } else if (this.temporada > serie.getTemporada()) {
+        } else if (this.horasEstimadas > videojuegos.getHorasEstimadas()) {
             compare = 3;
         }
 
@@ -105,6 +108,7 @@ public class Serie implements Entregable{
     }
 
     //setters y getters
+
     public String getTitulo() {
         return titulo;
     }
@@ -113,12 +117,12 @@ public class Serie implements Entregable{
         this.titulo = titulo;
     }
 
-    public int getTemporada() {
-        return temporada;
+    public int getHorasEstimadas() {
+        return horasEstimadas;
     }
 
-    public void setTemporada(int temporada) {
-        this.temporada = temporada;
+    public void setHorasEstimadas(int horasEstimadas) {
+        this.horasEstimadas = horasEstimadas;
     }
 
     public String getGenero() {
@@ -129,12 +133,12 @@ public class Serie implements Entregable{
         this.genero = genero;
     }
 
-    public String getCreador() {
-        return creador;
+    public String getCompania() {
+        return compania;
     }
 
-    public void setCreador(String creador) {
-        this.creador = creador;
+    public void setCompania(String compania) {
+        this.compania = compania;
     }
 
 }

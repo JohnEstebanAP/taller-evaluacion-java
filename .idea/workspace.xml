@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="actualización del README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Serie.java" afterDir="false" />
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="corrección punto 18 estaba malo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Entregable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Videojuego.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/ControladorEntretenimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/ControladorEntretenimiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Serie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -462,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655131450057</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="corrección punto 18 estaba malo">
+      <created>1655133415261</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1655133415261</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creación de en Menu extensible o reutilizable :)" />
     <MESSAGE value="Creación de en Menu extensible o reutilizable parte 2" />
     <MESSAGE value="Creación de en Menu extensible o reutilizable parte 3" />
     <MESSAGE value="Actualización de MyPrintAbstract.java" />
@@ -502,7 +511,8 @@
     <MESSAGE value="se agrego el punto al menu" />
     <MESSAGE value="corrección de bug en el punto 16" />
     <MESSAGE value="actualización del README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="actualización del README.md" />
+    <MESSAGE value="corrección punto 18 estaba malo" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrección punto 18 estaba malo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
