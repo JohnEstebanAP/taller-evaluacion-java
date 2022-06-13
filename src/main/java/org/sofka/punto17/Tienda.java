@@ -12,7 +12,7 @@ import java.util.List;
  * @version 1.0.0
  * @since Esta presente desde la version 1.0.0
  */
-public class App extends Start {
+public class Tienda extends Start {
     private List<Electrodomestico> electrodomesticosList = new ArrayList<>();
 
     /**
