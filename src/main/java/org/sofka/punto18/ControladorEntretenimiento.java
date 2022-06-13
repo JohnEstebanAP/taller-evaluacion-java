@@ -30,25 +30,31 @@ public class ControladorEntretenimiento extends Start {
         mayorTiempo();
     }
 
+    /**
+     * [Imprime en la consola la serie y videojuego com mas tiempo y temporadas de una lista].
+     */
     private void mayorTiempo() {
-        Serie serieHours = new Serie();
-        serieHours.setSeasons(0);
-        for (Serie gam : seriesList) {
-            if (gam.compareTo(serieHours) == 3) serieHours = gam;
-
+        Serie serie = seriesList.get(0);
+        for (Serie element1 : seriesList) {
+            for (Serie element2 : seriesList) {
+                if (serie.compareTo(element2) != 1) {
+                    serie = element2;
+                }
+            }
         }
 
-        Game gameHours = new Game();
-        gameHours.setEstimatedHours(0);
-        for (Game gam : gamesList) {
-            if (gam.compareTo(gameHours) == 3) gameHours = gam;
-
-
+        Videojuego videojuego = videojuegosList.get(0);
+        for (Videojuego element1 : videojuegosList) {
+            for (Videojuego element2 : videojuegosList) {
+                if (videojuego.compareTo(element2) != 1) {
+                    videojuego = element2;
+                }
+            }
         }
 
 
-        logMessage( "El juego con mas horas es:", gameHours.toString());
-        logMessage( "La serie con mas temporadas es:", serieHours.toString());
+        logMessage("La serie con mas temporadas es:", serie.toString());
+        logMessage("El juego con mas horas es:", videojuego.toString());
     }
 
 
@@ -92,6 +98,5 @@ public class ControladorEntretenimiento extends Start {
         videojuegosList.add(new Videojuego("need for speed most wanted", 40, "Acción", "Electronic Arts"));
         videojuegosList.add(new Videojuego("dragon ball z shin budokai", 30, "Acción", "Dimps"));
     }
-
 
 }

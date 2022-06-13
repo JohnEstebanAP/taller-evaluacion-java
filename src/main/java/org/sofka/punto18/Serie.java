@@ -94,11 +94,9 @@ public class Serie implements Entregable{
     @Override
     public int compareTo(Object a) {
         Serie serie = (Serie) a;
-        int compare = 1;
-        if (this.temporada == serie.getTemporada()) {
-            compare = 2;
-        } else if (this.temporada > serie.getTemporada()) {
-            compare = 3;
+        int compare = 0;
+        if(this.temporada >= serie.getTemporada()) {
+            compare = 1;
         }
 
         return compare;

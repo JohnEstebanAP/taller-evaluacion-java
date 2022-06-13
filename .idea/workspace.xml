@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="corrección punto 18 estaba malo">
+    <list default="true" id="76c52ab3-2db1-479b-8306-793a7cd8d917" name="Changes" comment="punto 18 funcionando">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/ControladorEntretenimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/ControladorEntretenimiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Videojuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/punto18/Videojuego.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -476,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655137593423</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="corrección punto 18">
+      <created>1655138250478</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1655138250478</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,8 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creación de en Menu extensible o reutilizable parte 2" />
-    <MESSAGE value="Creación de en Menu extensible o reutilizable parte 3" />
     <MESSAGE value="Actualización de MyPrintAbstract.java" />
     <MESSAGE value="add NumeroMayor.java en el menu :)" />
     <MESSAGE value="se agregaron los puntos funcionando asta el punto 5 en el menu." />
@@ -516,7 +523,9 @@
     <MESSAGE value="corrección de bug en el punto 16" />
     <MESSAGE value="actualización del README.md" />
     <MESSAGE value="corrección punto 18 estaba malo" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrección punto 18 estaba malo" />
+    <MESSAGE value="corrección punto 18" />
+    <MESSAGE value="punto 18 funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="punto 18 funcionando" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

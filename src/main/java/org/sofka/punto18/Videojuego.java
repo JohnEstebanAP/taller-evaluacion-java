@@ -97,14 +97,12 @@ public class Videojuego implements Entregable {
     @Override
     public int compareTo(Object a) {
         Videojuego videojuegos = (Videojuego) a;
-        int compare = 1;
-        if (this.horasEstimadas == videojuegos.getHorasEstimadas()) {
-            compare = 2;
-        } else if (this.horasEstimadas > videojuegos.getHorasEstimadas()) {
-            compare = 3;
+        int compare = 0;
+        if(this.horasEstimadas >= videojuegos.getHorasEstimadas()) {
+            compare = 1;
         }
-
         return compare;
+
     }
 
     //setters y getters
