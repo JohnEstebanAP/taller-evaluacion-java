@@ -25,9 +25,32 @@ public class ControladorEntretenimiento extends Start {
         videojuegosList.get(1).entregar();
         videojuegosList.get(2).entregar();
 
-
         contarEntregados();
+
+        mayorTiempo();
     }
+
+    private void mayorTiempo() {
+        Serie serieHours = new Serie();
+        serieHours.setSeasons(0);
+        for (Serie gam : seriesList) {
+            if (gam.compareTo(serieHours) == 3) serieHours = gam;
+
+        }
+
+        Game gameHours = new Game();
+        gameHours.setEstimatedHours(0);
+        for (Game gam : gamesList) {
+            if (gam.compareTo(gameHours) == 3) gameHours = gam;
+
+
+        }
+
+
+        logMessage( "El juego con mas horas es:", gameHours.toString());
+        logMessage( "La serie con mas temporadas es:", serieHours.toString());
+    }
+
 
     private void contarEntregados() {
         int seriesEntregadas = 0;
@@ -35,16 +58,18 @@ public class ControladorEntretenimiento extends Start {
 
         for (int i = 0; i < seriesList.size(); i++) {
             if (seriesList.get(i).isEntregado()) {
+                logMessage("Serie entregada ", seriesList.get(i).toString());
+
                 seriesEntregadas++;
             }
         }
 
         for (int i = 0; i < videojuegosList.size(); i++) {
             if (videojuegosList.get(i).isEntregado()) {
+                logMessage("Videojuego entregado ", videojuegosList.get(i).toString());
                 videojuegosEntregados++;
             }
         }
-
 
         logMessage("La cantidad de series entregadas es de:", String.valueOf(seriesEntregadas));
         logMessage("La cantidad de videojuegos entregadas es de:", String.valueOf(videojuegosEntregados));
