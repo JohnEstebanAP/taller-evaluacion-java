@@ -129,6 +129,7 @@ public class Persona  {
      * @since Esta presente desde la version 1.0.0
      */
     private String comprobarSexo(String sexo){
+        sexo = sexo.toUpperCase();
         if(sexo.equals(HOMBRE) || sexo.equals(MUJER) ){
             return sexo;
         }

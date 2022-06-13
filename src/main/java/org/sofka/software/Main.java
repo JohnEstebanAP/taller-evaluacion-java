@@ -148,9 +148,9 @@ public class Main extends Menu {
         if (option < 19 && option >= 0) {
             logMessage("La opción seleccionada es", elemenst.get(option + 5));
             Main.puntos.get(option).start();
-            logMessage("Por favor presione una tecla para continuar","");
+            logMessage("Por favor presione una tecla y enter para continuar","");
             Scanner scanner = new Scanner(System.in);
-            scanner.nextInt();
+            scanner.nextLine();
             startMenu();
         } else if (option == 19) {
             log("Salir del menu :)");

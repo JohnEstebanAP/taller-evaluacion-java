@@ -43,9 +43,9 @@ public class EjecutablePersona extends Start {
         edad = validarDatoInt();
         log("sexo de la persona ingresar (H) para hombre o  (M) para las mujeres: ");
         sexo = scanner.nextLine();
-        log("Peso de la persona: ");
+        log("Peso de la persona (75,5): ");
         peso = validarDatoDouble();
-        log("Altura dela persona: ");
+        log("Altura dela persona (1,78):  ");
         altura = validarDatoDouble();
 
         //Creación del primer objeto de persona
@@ -53,17 +53,16 @@ public class EjecutablePersona extends Start {
 
 
         logMessage("se creara un segundo objeto de persona", "\npor favor ingresar los siguientes datos: ");
-        log("Peso persona 2:");
+        log("Peso persona 2 (75,5): ");
         peso = validarDatoDouble();
-        log("Altura persona 2:");
+        log("Altura persona 2(1,78): ");
         altura = validarDatoDouble();
 
-        personas.get(1).setPeso(peso);
-        personas.get(1).setAltura(altura);
 
         //Creación del segundo objeto de persona
         personas.add(new Persona(nombre, edad, sexo));
-
+        personas.get(1).setPeso(peso);
+        personas.get(1).setAltura(altura);
 
         logMessage("se creara un tercer objeto de persona", "\npor favor ingresar los siguientes datos: ");
         log("Nombre de la Persona 3:");
@@ -72,10 +71,13 @@ public class EjecutablePersona extends Start {
         edad = validarDatoInt();
         log("sexo de la persona 3, ingresar (H) para hombre o  (M) para las mujeres: ");
         sexo = scanner.nextLine();
-        log("Peso de la persona 3: ");
+        log("Peso de la persona 3 (70,0): ");
         peso = validarDatoDouble();
-        log("Altura dela persona 3: ");
+        log("Altura dela persona 3 (1,70): ");
         altura = validarDatoDouble();
+
+        //Creación del tercer objeto de persona
+        personas.add(new Persona());
 
         personas.get(2).setNombre(nombre);
         personas.get(2).setEdad(edad);
@@ -83,8 +85,6 @@ public class EjecutablePersona extends Start {
         personas.get(2).setPeso(peso);
         personas.get(2).setAltura(altura);
 
-        //Creación del tercer objeto de persona
-        personas.add(new Persona());
 
         infoPersonas(personas);
     }
